@@ -8,6 +8,9 @@ encouragements = [
     "管住手，未来的你会感谢现在的自己~",
     "每一笔记录，都是在为你的财务自由铺路！"
 ]
+# 随机给个存钱建议
+suggestions = ["别乱花钱！", "存点钱买个喜欢的东西吧！", "再省一点就能攒够啦！"]
+print("💡 小建议：", random.choice(suggestions))
 
 while True:
     print("\n" + random.choice(encouragements))
@@ -31,7 +34,7 @@ while True:
 
     elif choice == "3":
         print(f"当前余额：{balance} 元")
-
+      
     elif choice == "0":
         print("退出记账程序")
         break
