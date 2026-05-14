@@ -19,6 +19,7 @@ while True:
     print("2 支出")
     print("3 查看余额")
     print("0 退出")
+    print("5 小彩蛋：查看今日运势")
 
     choice = input("请选择功能：")
 
@@ -36,7 +37,10 @@ while True:
         print(f"当前余额：{balance} 元")
       
     elif choice == "0":
-        print("退出记账程序")
+        print("退出记账程序") 
         break
+    elif choice == "5":
+        print("✨ 今日运势：大吉！适合攒钱，不适合乱花钱~")
+
     else:
         print("输入错误，请重新选择")
