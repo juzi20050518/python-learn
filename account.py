@@ -1,7 +1,16 @@
 # 简易记账小工具
 balance = 0
 
+import random 
+encouragements = [
+    "加油！理性消费，攒钱超有成就感！",
+    "你已经很棒了，继续保持记账好习惯！",
+    "管住手，未来的你会感谢现在的自己~",
+    "每一笔记录，都是在为你的财务自由铺路！"
+]
+
 while True:
+    print("\n" + random.choice(encouragements))
     print("===== 个人记账 =====")
     print("1 收入")
     print("2 支出")
